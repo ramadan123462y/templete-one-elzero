@@ -1,0 +1,935 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+header {
+
+    width: 100%;
+    height: 60px;
+    /* border: solid 2px; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+
+}
+
+header>.logo {
+    width: 60px;
+    height: 90%;
+    /* border: solid; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+
+
+
+
+}
+
+header>.links {
+
+
+    width: 60px;
+    height: 100%;
+    /* border: solid red; */
+    padding-top: 18px;
+    padding-left: 13px;
+}
+
+header>.links>i {
+
+
+    font-size: larger;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.landing {
+
+
+    width: 100%;
+    /* border: solid; */
+    height: calc(100vh - 60px);
+    background-image: url(https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one {
+
+    /* border: solid red; */
+    color: #10cab7;
+    font-size: x-large;
+    /* width: 1000px; */
+    text-align: center;
+    font-weight: bolder;
+}
+
+.portfolio>.text {
+    width: 400px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: solid green; */
+}
+
+
+.two {
+
+    /* border: solid 2px red; */
+    font-size: larger;
+    /* width: 1000px; */
+    width: 100%;
+    text-align: center;
+
+    font-weight: 500;
+    font-style: oblique;
+
+}
+
+/* new section */
+
+.new {
+    /* border: solid black; */
+
+
+
+    width: 100%;
+    height: 50vh;
+    background-color: #f6f6f6;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .new {
+        /* border: solid black; */
+
+
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+
+
+    }
+
+
+}
+
+.new>div {
+    /* border: solid red; */
+
+
+    width: 350px;
+    height: 250px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .new {
+        /* border: solid black; */
+
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 120vh;
+
+
+
+
+    }
+
+
+    .new>div {
+        /* border: solid red; */
+
+
+        width: 100%;
+        height: 250px;
+
+
+
+
+
+
+    }
+
+
+}
+
+.new>.idea>i {
+
+
+    width: 50px;
+    height: 50px;
+    color: #10cab7;
+    font-weight: 700;
+
+
+}
+
+.new>.idea>.title {
+
+
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+
+.new>.idea>p {
+
+
+    width: 100%;
+    height: 140px;
+    text-align: center;
+
+    color: #777;
+    font-size: 17px;
+    line-height: 1.8;
+
+
+}
+
+.new>.work>i {
+
+
+    width: 50px;
+    height: 50px;
+    color: #10cab7;
+    font-weight: 700;
+
+
+}
+
+.new>.work>.title {
+
+
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+
+.new>.work>p {
+
+
+    width: 100%;
+    height: 140px;
+    text-align: center;
+
+    color: #777;
+    font-size: 17px;
+    line-height: 1.8;
+
+
+}
+
+.new>.worldwide>i {
+
+
+    width: 50px;
+    height: 50px;
+    color: #10cab7;
+    font-weight: 700;
+
+
+}
+
+.new>.worldwide>.title {
+
+
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+
+.new>.worldwide>p {
+
+
+    width: 100%;
+    height: 140px;
+    text-align: center;
+
+    color: #777;
+    font-size: 17px;
+    line-height: 1.8;
+
+
+}
+
+/* services */
+body>.services {
+    border: solid fuchsia;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.services>.text {
+
+    border: solid black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.services>.text>.content {
+
+    border: solid red;
+    width: 30%;
+    height: 100%;
+    color: #797979;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.services>.text>.content>h1 {
+    border: solid blue;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    opacity: 0.2;
+
+    font-size: 90px;
+    font-weight: bolder;
+
+
+
+}
+
+
+
+
+/* media */
+
+
+@media screen and (max-width: 1100px) {
+
+    .services>.text>.content {
+
+        border: solid red;
+        width: 100%;
+        height: 100%;
+        color: #797979;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .services>.text>.content>h1 {
+        border: solid blue;
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        opacity: 0.2;
+
+        font-size: 90px;
+        font-weight: bolder;
+
+
+
+    }
+
+
+
+}
+
+.services>.text>.content>p {
+    /* 
+    font-size:10px; */
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-weight: bolder;
+    /* border: solid blue; */
+    font-size: 20px;
+    color: #797979;
+    margin-top: -20px;
+
+
+
+
+
+}
+
+.services>.content {
+
+    /* border: solid black; */
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+
+
+
+}
+
+
+
+.services .images {
+
+    border: solid red;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+/* media */
+@media screen and (max-width: 1360px) {
+
+    body>.services {
+        border: solid fuchsia;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+        width: 100%;
+        height: 150vh;
+
+    }
+
+    .services>.content {
+
+        border: solid black;
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+    .services .images {
+
+        border: solid red;
+        width: 35%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+
+    }
+
+
+}
+
+
+.services .images>.one {
+
+    /* border: solid blue; */
+    width: 20%;
+    height: 90%;
+    margin-left: -30px;
+    background-color: #2c4755;
+
+    z-index: 1;
+
+
+}
+
+.services .images>.two {
+
+    /* border: solid blue; */
+    width: 60%;
+    height: 70%;
+    background-image: url(https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/services.jpg);
+
+    z-index: 3;
+
+}
+
+.services .items {
+
+    /* border: solid red; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+/* items */
+.items>.content {
+    /* border: solid red; */
+    width: 70%;
+    height: 70%;
+    margin-right: -70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+
+
+
+}
+
+
+.items .col {
+    /* border: solid blue; */
+
+    width: 300px;
+    height: 170px;
+    display: flex;
+
+
+
+
+
+
+}
+
+.content .col i {
+
+    /* border: solid green; */
+    width: 20%;
+    height: 100%;
+    color: #10cab7;
+
+
+
+
+}
+
+.content .col .text {
+
+    /* border: solid green; */
+    width: 80%;
+    height: 100%;
+
+
+
+
+
+}
+
+.content .col .text h3 {
+
+    /* border: solid green; */
+    width: 100%;
+    height: 20%;
+
+
+
+
+
+}
+
+.content .col .text p {
+
+    /* border: solid green; */
+    width: 100%;
+    height: 70%;
+    font-weight: 300;
+
+
+
+
+
+}
+
+/* ----------------------------------portfolio--------------------- */
+
+.portfolio {
+
+
+    border: solid black;
+    background-color: #f6f6f6;
+
+
+    width: 100%;
+    height: 95vh;
+
+}
+
+
+
+
+
+.portfolio .text {
+
+
+    border: solid red;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .items {
+
+
+    /* border: solid red; */
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio>.text>.content {
+
+    /* border: solid blue; */
+    width: 30%;
+    height: 50%;
+
+}
+
+
+.portfolio>.text>.content>h1 {
+
+    /* border: solid green; */
+    width: 100%;
+    height: 85%;
+    font-size: 90px;
+    opacity: 0.1;
+    text-align: center;
+
+
+}
+
+.portfolio>.text>.content>p {
+
+    /* border: solid green; */
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    height: 15%;
+    margin-top: -20px;
+    color: #797979;
+
+}
+
+.portfolio>.items>.container {
+
+    /* border: solid blue; */
+
+
+    width: 77%;
+    height: 87%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.portfolio>.items>.container .card {
+
+    /* border: solid green; */
+
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.card>img {
+
+    /* border: solid orange; */
+
+
+
+
+    width: 100%;
+    height: 65%;
+}
+
+.card>.text_card {
+
+    border: solid orange;
+    padding: 15px;
+
+    background-color: white;
+    width: 100%;
+    height: 35%;
+}
+
+/* media */
+@media screen and (max-width: 1100px) {
+
+
+    .card>.text_card {
+        /* padding: 0px; */
+
+        /* border: solid orange; */
+        /* padding: 15px; */
+    
+        /* background-color: white; */
+        /* width: 100%; */
+        height: 70%;
+    }
+
+    .portfolio>.text>.content {
+
+        border: solid blue;
+        width: 100%;
+        height: 50%;
+    
+    }
+    .portfolio {
+
+
+        /* border: solid black;
+        background-color: #f6f6f6;
+    
+    
+        width: 100%;
+        height: 95vh; */
+
+        width: 100%;
+        height: 150vh;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+    
+
+    
+    .portfolio>.items>.container {
+
+        border: solid blue;
+    
+    
+     
+        height: 87%;
+    
+   
+        justify-content: center;
+   
+    
+    }
+
+    .card>.text_card {
+        /* padding: 0px; */
+
+        /* border: solid orange; */
+        /* padding: 15px; */
+    
+        /* background-color: white; */
+        /* width: 100%; */
+        /* height: 70%; */
+    }
+
+    .portfolio>.text>.content {
+
+        border: solid blue;
+        width: 100%;
+        height: 50%;
+    
+    }
+    .portfolio {
+
+
+        /* border: solid black;
+        background-color: #f6f6f6;
+    
+    
+        width: 100%;
+        height: 95vh; */
+
+        width: 100%;
+        height: 150vh;
+
+    }
+
+
+
+}
+
+
+.card>.text_card h3 {
+
+    /* border: solid orange; */
+
+
+    width: 100%;
+    height: 40%;
+}
+
+.card>.text_card p {
+
+    /* border: solid orange; */
+    color: #777;
+    line-height: 1.6;
+
+
+
+    width: 100%;
+    height: 60%;
+}
+
+/* footer */
+
+
+footer {
+    /* border: solid black; */
+    background-color: #2c4755;
+
+
+    width: 100%;
+
+    height: 11vh;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .footer_content {
+    /* border: solid red; */
+
+
+    width: 30%;
+    height: 100%;
+
+
+
+}
+
+footer .footer_content h3 {
+    /* border: solid blue; */
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+
+
+    width: 100%;
+    /* height: 100%; */
+
+
+
+}
+
+.footer_content span {
+    color: #10cab7;
+
+
+}
+
+/* media */
+
+/* and (min-width: 701px) */
+@media screen and (max-width: 1200px) {
+
+    .new {
+        /* border: solid black; */
+
+
+
+
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+
+
+    }
+
+
+}
